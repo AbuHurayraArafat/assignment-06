@@ -83,16 +83,40 @@ https://openapi.programming-hero.com/api/plant/1
 #### 7) Create a README file to answer the following question-
 
 
-#### 1) What is the difference between var, let, and const?
 
-#### 2) What is the difference between map(), forEach(), and filter()? 
+1) Difference between var, let, const:
 
-#### 3) What are arrow functions in ES6?
+var: function-scoped, can redeclare & reassign
 
-#### 4) How does destructuring assignment work in ES6?
+let: block-scoped, can reassign, not redeclare
 
-#### 5) Explain template literals in ES6. How are they different from string concatenation?
+const: block-scoped, cannot reassign or redeclare
 
+2) Difference between map(), forEach(), filter():
+
+forEach(): loops, no return
+
+map(): transforms, returns new array
+
+filter(): returns new array with items matching a condition
+
+3) Arrow functions in ES6:
+
+Short function syntax: (a,b) => a+b
+
+this is lexical
+
+4) Destructuring assignment:
+
+Extract values from arrays/objects into variables
+
+[a,b]=[1,2], {name,age}={name:"Arafat",age:22}
+
+5) Template literals:
+
+Backticks `, embed variables ${name}, supports multi-line
+
+Cleaner than string concatenation
 ## ⚙️ Functionalities 
 
 1) Category Loading 
